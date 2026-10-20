@@ -6,6 +6,14 @@ export const metadata: Metadata = {
   title: 'Casa en Privada Hacienda del Mar, Tijuana | $3,250,000 MXN — Bienes Raíces Hub',
   description:
     'Casa de 3 niveles, 3 recámaras y 2.5 baños en la Privada Hacienda del Mar, Hacienda Acueducto, Tijuana. Acceso controlado y área de lavado oculta tras una puerta tipo librero. Agenda tu cita con el asesor.',
+  // Esta landing es una versión de campaña (ads, WhatsApp) de la misma
+  // propiedad que ya vive en
+  // bienesraiceshub.com/propiedad/privada-hacienda-del-mar. El canonical
+  // marca al Hub como la versión preferida para Google. Ver
+  // claude/estrategia-seo-google-oct-2026.md, sección 1.
+  alternates: {
+    canonical: 'https://www.bienesraiceshub.com/propiedad/privada-hacienda-del-mar',
+  },
   openGraph: {
     title: 'Casa en Privada Hacienda del Mar, Tijuana | $3,250,000 MXN',
     description:
